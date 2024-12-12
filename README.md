@@ -12,6 +12,7 @@ The scripts can be written and run on any text editor that supports MicroPython.
 - Visual Studio Code
 - PyCharm
 - Arduino IDE
+
 Personally i like to use Mu Editor with my Node MCU ESP8266. It is a simple editor that is easy to use and has a built-in serial console for debugging. It also has a built-in file manager that allows you to upload files to the ESP8266. You may use any editor of your choice.
 ## Getting started
 To get started with MicroPython on the ESP8266, you will need to install the MicroPython firmware on the ESP8266. You can download the firmware from the MicroPython website and flash it onto the ESP8266 using a tool like esptool.py. Once you have flashed the firmware onto the ESP8266, you can connect to the ESP8266 using a serial terminal and start running Python scripts on it.

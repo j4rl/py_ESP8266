@@ -8,16 +8,17 @@ When coding with MicroPython and the ESP8266, you will need some electronic comp
 - Push buttons
 - Various sensors (e.g. temperature sensor, light sensor, motion sensor)
 - TTL or CMOS logic chips
+
 ## How the breadboard works
 The breadboard is a tool that allows you to connect electronic components together without soldering. The breadboard has a grid of holes that are connected together in rows and columns. The rows are connected horizontally, while the columns are connected vertically. The breadboard also has power rails on the sides that are used to provide power to the components on the breadboard. The power rails are usually labeled with the voltage that they provide, such as 3.3V or 5V. The breadboard also has a gap in the middle that is used to separate the power rails into two sections. This gap is called the "dip" or "ditch" and is used to prevent short circuits between the power rails. The breadboard also has a set of holes in the middle that are used to connect components together. These holes are usually labeled with letters and numbers to help you keep track of which holes are connected together. The breadboard also has a set of holes on the sides that are used to connect the breadboard to other components, such as the ESP8266 or a power supply. The breadboard is a versatile tool that can be used to build a wide variety of electronic circuits, from simple LED blinkers to complex microcontroller projects.
 ## Simple LED blinking with five LEDs
 Setting it up on a breadboard:
-- Connect the ESP8266 to the breadboard
+### Connect the ESP8266 to the breadboard
 Place the ESP8266 on the breadboard so that the pins are aligned with the rows on the breadboard. Make sure that the pins are inserted into the holes on the breadboard so that they make a good connection. You can use jumper wires to connect the ESP8266 to the breadboard if the pins do not align with the rows on the breadboard.
-- Connect the LEDs and resistors to the breadboard
+### Connect the LEDs and resistors to the breadboard
 Place the LEDs on the breadboard so that the longer leg (the anode) is connected to the positive power rail, and the shorter leg (the cathode) is connected to a resistor. Connect the other end of the resistor to a pin on the ESP8266. You can use jumper wires to connect the LEDs to the breadboard if the legs do not align with the rows on the breadboard. We use resistors to limit the current flowing through the LEDs and prevent them from burning out. The value of the resistor depends on the voltage and current rating of the LED, but a good rule of thumb is to use a 220 ohm resistor for a 3.3V power supply.
-- Write the code
-- Run the code (duh)
+### Write the code
+### Run the code (duh)
 Example code:
 ```python
 import machine
@@ -46,6 +47,7 @@ while True:
     led6.value(0) # Turn the fifth external LED off
     time.sleep(1) # Wait for 1 second
 ```
+
 Example code of using the five LEDs like a Knight Rider light, and the internal LED blinks independently:
 ```python
 import machine
@@ -75,10 +77,10 @@ while True:
 ```
 ## Using a push button to control the LEDs
 Setting it up on a breadboard:
-- Connect the push button to the breadboard
+### Connect the push button to the breadboard
 Place the push button on the breadboard so that the legs are connected to two different rows on the breadboard. Connect one leg of the push button to a pin on the ESP8266, and connect the other leg to the ground rail on the breadboard. You can use jumper wires to connect the push button to the breadboard if the legs do not align with the rows on the breadboard.
-- Write the code
-- Run the code (duh)
+### Write the code
+### Run the code (duh)
 Example code:
 ```python
 import machine
@@ -107,10 +109,10 @@ while True:
 ```
 ## Using a potentiometer to control how many LEDs are on
 Setting it up on a breadboard:
-- Connect the potentiometer to the breadboard
+### Connect the potentiometer to the breadboard
 Place the potentiometer on the breadboard so that the legs are connected to three different rows on the breadboard. Connect one leg of the potentiometer to the positive power rail on the breadboard, and connect the other leg to the ground rail on the breadboard. Connect the middle leg of the potentiometer to a pin on the ESP8266. You can use jumper wires to connect the potentiometer to the breadboard if the legs do not align with the rows on the breadboard.
-- Write the code
-- Run the code (duh)
+### Write the code
+### Run the code (duh)
 Example code:
 ```python
 import machine

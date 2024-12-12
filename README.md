@@ -1,5 +1,10 @@
 # Python for the ESP8266
 This repository contains a collection of Python scripts that can be run on the ESP8266. The scripts are written in MicroPython, which is a lean and efficient implementation of Python 3 that includes a small subset of the Python standard library. The scripts are intended to be run on the ESP8266 microcontroller, which is a low-cost Wi-Fi microcontroller with a full TCP/IP stack and a microcontroller unit (MCU) based on the Node MCU architecture.
+- [About the Node MCU ESP8266](about_node-mcu.md)
+- [All about SPI](all_about_SPI.md)
+- [Fun with electronics](electronics.md)
+- [Getting started with MicroPython](getting_started.md)
+
 ## Which editor to use?
 The scripts can be written and run on any text editor that supports MicroPython. Some popular editors that support MicroPython include:
 - Thonny

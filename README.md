@@ -14,7 +14,8 @@ To get started with MicroPython on the ESP8266, you will need to install the Mic
 You can find more information about MicroPython on the MicroPython website: [https://micropython.org/](https://micropython.org/)
 On that website you can find the firmware for the ESP8266 and other microcontrollers, as well as documentation and tutorials on how to get started with MicroPython.
 ## Electronics components and tools
-To run the scripts in this repository, you will need som electronic components other than the ESP8266. Here is a list of components that you may need:
+To run the scripts in this repository, you will need som electronic components other than the ESP8266. 
+**Here is a list of components that you may need:**
 - Breadboard
 - Jumper wires
 - LEDs
@@ -22,12 +23,14 @@ To run the scripts in this repository, you will need som electronic components o
 - Push buttons
 - Various sensors (e.g. temperature sensor, light sensor, motion sensor)
 - any SPI or I2C devices
-Tools that you may need:
+
+**Tools that you may need:**
 - Soldering iron
 - Multimeter (optional)
 - Oscilloscope (optional, pro users)
 - Cutters, wire strippers, pliers, tweezers, etc.
 - Coffee (optional)
-Bare minimum components that you will need to run the scripts in this repository are:
+
+**Bare minimum components that you will need to run the scripts in this repository are:**
 - ESP8266 and a USB cable
 - Computer with a USB port
